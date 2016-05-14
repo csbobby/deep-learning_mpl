@@ -1,2 +1,2 @@
 # deep-learning_mpl
-Multi-Layer Perceptron (MLP)
+Deep Learning: Multi-Layer Perceptron (MLP)
