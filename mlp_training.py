@@ -21,10 +21,10 @@ def mlp_training(X_train,y_train,input_dim,features,datadir,history_path):
 	#create a model
 	model = Sequential()
 	model.add(Dense(output_dim=1024, input_dim=input_dim, init='uniform'))
-	model.add(Activation('tanh'))
+	model.add(Activation('relu'))
 	model.add(Dropout(0.5))
 	model.add(Dense(64, init='uniform'))
-	model.add(Activation('tanh'))
+	model.add(Activation('relu'))
 	model.add(Dropout(0.5))
 	model.add(Dense(19, init='uniform'))
 	model.add(Activation('softmax'))
